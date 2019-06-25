@@ -11,5 +11,4 @@ describe('Login Tests',() =>{
     ReactDOM.render(<LoginForm />, div);
     ReactDOM.unmountComponentAtNode(div);
   })
-
 });
