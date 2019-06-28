@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "thingful-app",
+  "alias": "thingful-app",
+  "routes": [
+      {
+        "src": "^/static/(.*)",
+        "dest": "/static/$1"
+      },
+      {
+        "src": ".*",
+        "dest": "/index.html"
+      }
+  ]
+}
